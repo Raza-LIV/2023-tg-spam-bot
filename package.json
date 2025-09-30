@@ -1,0 +1,26 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/bot.js",
+    "web": "node src/web-server.js",
+    "test": "node src/test-bot.js",
+    "dev": "node src/test-bot.js",
+    "userbot": "node src/userbot.js",
+    "test-userbot": "node src/test-userbot.js",
+    "server": "node src/web-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^4.18.2",
+    "input": "^1.0.1",
+    "node-telegram-bot-api": "^0.64.0",
+    "telegram": "^2.26.22"
+  }
+}
